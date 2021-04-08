@@ -1,0 +1,83 @@
+/* Body */
+
+body{
+    background-color:lightgrey;
+    height: 900px;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+ /* Navbar */
+  .navigation .btn-success {
+    color: white;
+    margin-left: 0px;
+    padding: inherit;
+    font-weight: nornal;
+    background-color: rgb(2, 145, 133);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .navbar {
+    background-color: white;
+    font-size: 25px; 
+  }
+  .active, .dropdown-menu .dropdown-item:active a:hover {
+    background-color: white;
+  }
+  .dropdown-item {
+    color:goldenrod;
+  }
+  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #ff9900;
+  }
+  
+  .nav-link:hover {
+    background-color:rgb(2, 145, 133);
+   }
+  
+   .btn-success:hover {
+  color: black;
+  font-weight: lighter
+  }
+  a {
+    color: black;
+    font-size: 16px;
+    font-weight: inherit;
+  }
+  
+  /* Images */
+  img{
+    width:100%;
+    height:80%;
+  }
+  
+  .visualization {
+    width: 40%;
+    height: 90%;
+  }
+  
+  /* Title */
+  .title {
+    color:  rgb(2, 145, 133);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-top: 10px;
+  }
+  
+  /* Paragraph: header h6s */
+
+  h6 {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  }
+  
+  /* Box */
+  .box {
+    margin-top: 60px;
+    margin-bottom: 65px;
+    padding: 20px 20px 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    background-color: white;
+    }
+    

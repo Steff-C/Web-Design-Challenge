@@ -6,26 +6,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>Landing Page</title>
+</head>
   
-  </head>
-  
-  <body style = "background-color: rgb(235, 231, 231);">
-          <!-- navigation bar -->
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        
-            <div class= col-md-8>
-                <div class='row'>
-                <div class='col-2'></div>    
-                <a class="btn btn-success" href="http://google.com"> Lattitude </a>
-                <style>.btn-success{font-size: 1cm; background-color: rgb(2, 145, 133);
-                }</style>
+<body>
+
+<!-- navigation bar -->
+
+  <div class = "navigation">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class= col-md-8>
+        <div class='row'>
+        <div class='col-2'></div>    
+        <a class="btn-success" href="https://getbootstrap.com/docs/4.3/getting-started/introduction/"> Lattitude </a>
+          <style>.btn-success{font-size: 1.1cm; background-color: rgb(2, 145, 133);
+            }</style>
                 </div>
             </div>  
         <div class = col-md-4>
         <div class="row">
-        <div class=col-7></div>
+        <div class=col-6></div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
           <ul class="navbar-nav mr-auto">
@@ -50,16 +51,17 @@
     </div>
       </nav>
     <!-- End of Navagation Bar-->  
+
     <div class="container">
       <div class="row">
           <div class="col-lg-7 col-md-12">
-              <div class="box" style="padding-bottom: 20px;">
+              <div class="box" style="padding-bottom: 25px;">
                   <h3 class="title">SUMMARY: LATITUDE VS. X</h3>
                   <hr>
-                  <img src="Resources/assets/images/Fig1.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-                  <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, wefirst pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-                  <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.  Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and
-                  visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                  <img src="Resources/images/City Latitude vs. Temperature Plot.png" class="visualization rounded float-left" alt="Max Temperature Graph">
+                  <p><h6>The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, wefirst pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                  <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.  Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  This site provides the source data and
+                  visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</h6></p>
               </div>
           </div>
           <div class="col-lg-5 col-md-12">
@@ -68,16 +70,16 @@
                   <hr>
                   <div class="container">
                       <div class="row" style="padding-bottom: 30px;">
-                          <div class="col-6">
-                                  <div class="title">Latitude vs. Max Temperature</div>
+                             <div class="col-6">
+                                    <div class="title">Latitude vs. Max Temperature</div>
                               <a href="temp.html">
-                              <img class="panel" src="Resources/assets/images/Fig1.png" alt="Max Temperature Graph">
+                              <img class="panel" src="Resources/images/City Latitude vs. Temperature Plot.png" alt="Max Temperature Graph">
                               </a>
                           </div>
                           <div class="col-6">
                                   <div class="title">Latitude vs. Humidity</div>
                               <a href="humidity.html">
-                              <img class="panel" src="Resources/assets/images/Fig2.png" alt="Humidity Graph">
+                              <img class="panel" src="Resources/images/City Latitude vs. Humidity.png" alt="Humidity Graph">
                               </a>
                           </div>
                       </div>
@@ -85,14 +87,13 @@
                           <div class="col-6">
                                   <div class="title">Latitude vs. Cloudiness</div>
                               <a href="cloudiness.html">
-                              <img class="panel" src="Resources/assets/images/Fig3.png" alt="Cloudiness Graph">
+                              <img class="panel" src="Resources/images/City Latitude vs. Cloudiness.png" alt="Cloudiness Graph">
                               </a>
-                              <!-- <div class="title">vs. Cloudiness</div> -->
-                          </div>
+                            </div>
                           <div class="col-6">
                                   <div class="title">Latitude vs. Wind Speed</div>
                               <a href="wind_speed.html">
-                                  <img class="panel" src="Resources/assets/images/Fig4.png" alt="Wind Speed Graph">
+                                  <img class="panel" src="Resources/images/City Latitude vs. Wind Speed.png" alt="Wind Speed Graph">
                               </a>
                           </div>
                       </div>
@@ -102,5 +103,5 @@
       </div>
   </div>
 
-  </body>
+</body>
   </html>
