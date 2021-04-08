@@ -13,36 +13,27 @@
 <body>
 
 <!-- navigation bar -->
-
   <div class = "navigation">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class= col-md-8>
-        <div class='row'>
-        <div class='col-2'></div>    
         <a class="btn-success" href="https://getbootstrap.com/docs/4.3/getting-started/introduction/"> Lattitude </a>
-          <style>.btn-success{font-size: 1.1cm; background-color: rgb(2, 145, 133);
-            }</style>
-                </div>
-            </div>  
-        <div class = col-md-4>
-        <div class="row">
-        <div class=col-6></div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">       
           <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Toggle navigation">Plots</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Max Temperature</a>
-                        <a class="dropdown-item" href="#">Humidity </a>
-                        <a class="dropdown-item" href="#">Cloudiness</a>
-                        <a class="dropdown-item" href="#">Wind Speed</a>
+                        <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity </a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
                     </div>
                 </li>
             <li class="nav-item active">
               <a class="nav-link" href="#">Comparison <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#">Data</a>
             </li>
           </ul>
@@ -56,22 +47,22 @@
       <div class="row">
           <div class="col-lg-7 col-md-12">
               <div class="box" style="padding-bottom: 25px;">
-                  <h3 class="title">SUMMARY: LATITUDE VS. X</h3>
+                  <h3 class="title">Summary: Latitude VS. X</h3>
                   <hr>
                   <img src="Resources/images/City Latitude vs. Temperature Plot.png" class="visualization rounded float-left" alt="Max Temperature Graph">
-                  <p><h6>The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, wefirst pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-                  <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.  Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  This site provides the source data and
+                  <p><h6>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, wefirst pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                  <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  This site provides the source data and
                   visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</h6></p>
               </div>
           </div>
           <div class="col-lg-5 col-md-12">
               <div class="box">
-                  <h3 class="title">VISUALIZATIONS</h3>
+                  <h3 class="title">Visualizations</h3>
                   <hr>
                   <div class="container">
                       <div class="row" style="padding-bottom: 30px;">
                              <div class="col-6">
-                                    <div class="title">Latitude vs. Max Temperature</div>
+                                    <div class="title">Latitude vs. Max Temperature </div>
                               <a href="temp.html">
                               <img class="panel" src="Resources/images/City Latitude vs. Temperature Plot.png" alt="Max Temperature Graph">
                               </a>
