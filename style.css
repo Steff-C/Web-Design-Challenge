@@ -11,7 +11,7 @@ body{
   .navbar .navbardropdown {
     max-height: auto;
 }
-  .navigation .btn-success {
+  .navigation .navbar-brand {
     color: white;
     margin-left: 0px;
     padding: inherit;
@@ -22,6 +22,10 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* .navigation:hover {
+  background-color: pink;
+  color: pink
+} */
   .navbar {
     background-color: white;
     font-size: 15px;
@@ -39,9 +43,9 @@ body{
   .nav-link:hover {
     background-color: lightgray;
 }
-  .btn-success:hover {
-    color: black;
-    font-weight: normal;
+  .navbar-brand:hover {
+    color: darkmagenta;
+    font-weight: bold;
 }
 
   a {
