@@ -33,7 +33,7 @@ body{
     color:rgb(2, 145, 133);
 }
   .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
-    background-color: #ff9900;
+    background-color: lightpink;
 }
   
   .nav-link:hover {
