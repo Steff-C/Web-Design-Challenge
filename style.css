@@ -8,7 +8,7 @@ body{
 }
 
  /* Navbar */
-  .navbar {
+  .navbar .navbardropdown {
     max-height: auto;
 }
   .navigation .btn-success {
